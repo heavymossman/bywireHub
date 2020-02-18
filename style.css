@@ -1,0 +1,78 @@
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1340px;
+    }
+}
+
+@media (min-width: 980px) {
+    .container {
+        max-width: 1340px;
+    }
+    .nav-link {
+        margin-right: 3rem;
+    }
+}
+
+img.fp-news {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: gray;
+    /* IE5+ */
+    -webkit-filter: grayscale(1);
+    /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .8s ease-in-out;
+}
+
+img.fp-news:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+.card {
+    min-height: 460px;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: #1e1e1e;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+a.nav-link:link {
+    color: rgba(0, 0, 0, .5);
+    font-weight: 500;
+}
+
+a.dropdown-item {
+    color: rgba(0, 0, 0, .5);
+    font-weight: 500;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #1e1e1e;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: #9b9b9b;
+    text-decoration: underline;
+}
+
+
+/* selected link */
+
+a:active {
+    color: #9b9b9b;
+}
