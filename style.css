@@ -96,6 +96,10 @@ a:active {
     .hidden-mobile {
         display: none;
     }
+    .mobile-card-margin {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
 
 .btn {
@@ -122,3 +126,10 @@ body {
     line-height: 170%;
     font: 1.1em;
 }
+
+.super-margin {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.
