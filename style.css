@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
 @media (min-width: 1400px) {
     .container {
         max-width: 1340px;
@@ -29,7 +30,7 @@ img.fp-news:hover {
 }
 
 .card {
-    min-height: 460px;
+    min-height: 470px;
 }
 
 
@@ -75,4 +76,49 @@ a:hover {
 
 a:active {
     color: #9b9b9b;
+}
+
+.footer-bk {
+    background-color: #e9ecef;
+}
+
+@media (min-width: 700px) {}
+
+@media (max-width: 699px) {
+    .nav-item {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+    }
+    .dropdown-item {
+        text-align: center;
+    }
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.nav-item-border {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    font-family: 'Roboto', serif;
+    line-height: 170%;
+    font: 1.1em;
 }
